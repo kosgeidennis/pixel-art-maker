@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    border: 1px solid rgb(26, 2, 2);
+    margin: 0px 20px 0px 20px;
+}
+
+h1 {
+    font-family:monoton;
+    font-size: 80px;
+    margin: 0.2em;
+    color:rgb(16, 18, 44);
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    text-decoration: underline;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.myButton{
+    cursor: pointer;
+}
+
+
